@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Student_Rating</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">SearchActivity</string>
+
+    <string name="result_1_title">Person 1</string>
+    <string name="result_2_title">Person 2</string>
+    <string name="result_3_title">Person 3</string>
+    <string name="result_4_title">Person 4</string>
+    <string name="result_5_title">Person 5</string>
+    <string name="result_6_title">Person 6</string>
+
+</resources>

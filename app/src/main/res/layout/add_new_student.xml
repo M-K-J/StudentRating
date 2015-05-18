@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"  
+    android:background="@drawable/blue"
+    android:weightSum="1"
+    android:id="@+id/layoutid"
+    tools:context="com.example.admin2015.student_rating.AddNewStudent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="128dp"
+            android:background="@drawable/val"
+            android:text="SEARCH"
+            android:id="@+id/searchbtn"
+            android:drawableTop="@drawable/search"
+            android:layout_gravity="left|top"
+            android:layout_alignTop="@+id/addbtn"
+            android:layout_marginRight="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="128dp"
+            android:text="DELETE"
+            android:id="@+id/deletebtn"
+            android:background="@drawable/val"
+            android:layout_weight="0.06"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginTop="2dp"
+            android:layout_below="@+id/searchbtn"
+            android:drawableTop="@drawable/deleteperson"
+            android:layout_alignLeft="@+id/searchbtn"
+            android:layout_alignStart="@+id/searchbtn" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="100dp"
+            android:text="ADD"
+            android:drawableTop="@drawable/addperson"
+            android:background="@drawable/val"
+            android:id="@+id/addbtn"
+            android:layout_gravity="right|top"
+            android:layout_marginLeft="45dp"
+            android:layout_marginStart="40dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="128dp"
+            android:text="EDIT"
+            android:id="@+id/editbtn"
+            android:background="@drawable/val"
+            android:layout_weight="0.06"
+            android:layout_marginTop="2dp"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_alignTop="@+id/deletebtn"
+            android:layout_alignLeft="@+id/addbtn"
+            android:drawableTop="@drawable/editperson"
+            android:layout_alignStart="@+id/addbtn" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/imageView6"
+            android:src="@drawable/admin_icon"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="200dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Admin"
+            android:layout_marginTop="14dp"
+            android:id="@+id/textView6"
+            android:layout_alignBottom="@+id/imageView6"
+            android:layout_toLeftOf="@+id/imageView6"
+            android:layout_toStartOf="@+id/imageView6" />
+    </RelativeLayout>
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New ToggleButton"
+        android:id="@+id/toggleButton"
+        android:layout_gravity="right" />
+
+</LinearLayout>
